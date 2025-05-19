@@ -8,7 +8,6 @@ typedef struct{
     int period;
     int execution_time;
     int remaining_time;
-    int next_start_time;
 }Task;
 
 void sort_by_priority(Task tasks[],int n){
